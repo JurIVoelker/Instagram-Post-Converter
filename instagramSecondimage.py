@@ -31,7 +31,7 @@ def convertImages():
             listEntrys[i][1].config(bg="green")
             listEntrys[i][2].destroy()
         fileList = []
-        webbrowser.open("C:\\Users\\juriv\\OneDrive - bwedu\\Personal\\Programmieren\\2023-02-14 Instagram Second image\\finished")
+        webbrowser.open("\\finished")
     else:
         alert = Tk()
         alert.title("Alert")
@@ -129,7 +129,7 @@ def containsMetadata(image):
         shutter = math.pow(2, exif.get(37377)) # Shutter speed
         return True, model, lens
     except:
-        return False, lens, model
+        return False, "error", "error"
 
 def loadSettings():
     global BLUR_RADIUS, BRIGHTNESS,MARGIN_LEFT, MARGIN_RIGHT, MARGIN_TOP, ITEM_SPACING, FONT_RGB_VALUE, FONT, LENS_RENAME, CAMERA_RENAME
@@ -346,7 +346,7 @@ browseFilesButton = Button(root, text="Browse files", command=browseFiles, width
 
 convertImagesButton = Button(root, text="Convert Images", command=convertImages, width=28)  .pack(side=LEFT,  padx=7.5,      pady=(0,15))
 
-settingsIcon = PhotoImage(file="settings.png").subsample(4,4)
+settingsIcon = PhotoImage(file="resources/settings.png").subsample(4,4)
 settingsButton = Button(root, image=settingsIcon, command=settings, width=22, height=22)    .pack(side=RIGHT, padx=(7.5,15), pady=(0,15))
 
 root.mainloop()
