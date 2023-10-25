@@ -74,7 +74,7 @@ Clone the git repository and follow the installation instructions:
 
 <img src="readmeData/mainScreen.jpg" height="500px">
 
-<p>For adding images that should be converted, press [Browse images] and add the images. Only jpeg images are compatible. Compatible images are colored green, uncompatible images are colored red. You can remove them by pressing "delete".</p>
+<p>For adding images that should be converted, press [Browse files] and add the images. Only jpeg images are compatible. Compatible images are colored green, uncompatible images are colored red. You can remove them by pressing "delete".</p>
 
 <img src="readmeData/mainScreen2.jpg"  height="500px">
 
