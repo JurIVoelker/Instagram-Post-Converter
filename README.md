@@ -9,7 +9,7 @@
 <h3 align="center">Instagram Post Converter</h3>
 
   <p align="center">
-    You are a photographer and want to create professional looking images for instagram that contains the metadata of the shot? The "Instagram Post Converter" reads meatadata from image, blurs that image, lowers exposure and writes the metadata on that image. 
+    You are a photographer and want to create professional looking images for instagram that contains the metadata of the shot? The "Instagram Post Converter" reads metadata from an image, blurs that image, lowers exposure and writes the metadata on that image. 
     <br />
     <a href="https://github.com/JurIVoelker/Instagram-Post-Converter"><strong>Explore the docs »</strong></a>
     <br />
@@ -27,7 +27,7 @@
 
 <img src="readmeData/preview.jpg">
 
-<p>This is an example of the usage of the software!</p>
+<p>This is an example for the usage of the software!</p>
 
 ### Used Python libraries
 * pillow - for image processing 
@@ -74,7 +74,7 @@ Clone the git repository and follow the installation instructions:
 
 <img src="readmeData/mainScreen.jpg" height="500px">
 
-<p>For adding images that should be converted, press [Browse files] and add the images. Only jpeg images are compatible. Compatible images are colored green, uncompatible images are colored red. You can remove them by pressing "delete".</p>
+<p>For adding images that should be converted, press [Browse files] and add the images. Only jpeg images are compatible. Compatible images are colored green, incompatible images are colored red. You can remove them by pressing "delete".</p>
 
 <img src="readmeData/mainScreen2.jpg"  height="500px">
 
@@ -90,8 +90,8 @@ Clone the git repository and follow the installation instructions:
 
 * Blur radius: Amount of background blur on image (whole number, default: 15)
 * Brightness: Brightness of background (number between 1.0 and 0.0, default: 0.7)
-* Margin left: Distance to the left and right edge of all items in pixles (whole number, default: 75)
-* Margin top: Distance to the top edge of all items in pixles (whole number, default: 300)
+* Margin left: Distance to the left and right edge of all items in pixels (whole number, default: 75)
+* Margin top: Distance to the top edge of all items in pixels (whole number, default: 300)
 * Item spacing: Distance distance between all items on y-axis (whole number, default: 110)
 * Font Family: Font family of written text (true type font (ttf), default: "/resources/LGC.ttf")
 * Font size: Size of written font (whole number, default: 55)
